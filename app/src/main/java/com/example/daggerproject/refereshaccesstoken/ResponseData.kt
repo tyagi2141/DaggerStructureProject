@@ -1,0 +1,12 @@
+package com.example.daggerproject.refereshaccesstoken
+
+
+import android.os.Parcelable
+import com.google.gson.annotations.SerializedName
+import kotlinx.android.parcel.Parcelize
+
+@Parcelize
+data class ResponseData(
+    @SerializedName("access")
+    var access: String? // eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNTgzMzMxNzYzLCJqdGkiOiI0MmZjZGRhZDA4YTQ0NWEzYTA5YTZmNGRhNGYxZGMzYSIsInVzZXJfaWQiOjIsInBob25lIjoiOTkzMDU4NjUxOSIsImlzX2FjdGl2ZSI6dHJ1ZSwiZW1haWwiOm51bGwsInJvbGUiOiIiLCJmbmFtZSI6IiIsImxuYW1lIjoiIiwiY291bnRyeSI6IklORElBIn0.gj-h2xSC_FdIiJpdnKTMu4jr-6vNozy7JoHOGVHYvpo
+) : Parcelable
